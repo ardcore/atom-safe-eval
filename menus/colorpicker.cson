@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Show colorpicker': 'colorpicker:show'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'colorpicker'
+      'submenu': [
+        { 'label': 'Show', 'command': 'colorpicker:show' }
+      ]
+    ]
+  }
+]

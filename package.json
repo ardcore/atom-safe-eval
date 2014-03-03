@@ -1,0 +1,47 @@
+{
+  "name": "colorpicker",
+  "main": "./lib/colorpicker",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Colorpicker package for atom.",
+  "keywords": [
+    "colorpicker",
+    "color",
+    "css",
+    "frontend",
+    "ui"
+  ],
+  "homepage": "https://github.com/ardcore/atom-colorpicker",
+  "bugs": {
+    "url": "https://github.com/ardcore/atom-colorpicker/issues",
+    "email": "szymon.pilkowski@gmail.com"
+  },
+  "author": {
+    "name": "Szymon Pilkowski",
+    "email": "szymon.pilkowski@gmail.com",
+    "url": "http://twitter.com/ard"
+  },
+  "activationEvents": [
+    "colorpicker:show"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ardcore/atom-colorpicker.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "onecolor": ">=2.4.0",
+    "colorjoe": ">=0.9.2"
+  },
+  "readme": "# Colorpicker\n\nColorpicker package for [atom.io](http://atom.io).\n\nFeatures:\n - multi-cursor support\n - context detection depending on cursor position\n - simple UI depending on [colorjoe](https://www.npmjs.org/package/colorjoe)\n\nShortcut: `cmd + alt + k`\n\nScreenshot:\n![atom colorpicker](https://dl.dropboxusercontent.com/u/540495/atom-colorpicker.png \"Atom Colorpicker\")\n",
+  "readmeFilename": "README.md",
+  "_id": "colorpicker@0.3.0",
+  "dist": {
+    "shasum": "28690c4bb61dee7d4a02a25d96282c91ddaf3c07"
+  },
+  "_resolved": "/var/folders/2w/jx0124k123d6d5kwsk3xbklr0000gn/T/d-11423-57538-1atdfns/package.tgz",
+  "_from": "/var/folders/2w/jx0124k123d6d5kwsk3xbklr0000gn/T/d-11423-57538-1atdfns/package.tgz"
+}
