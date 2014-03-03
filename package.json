@@ -1,0 +1,37 @@
+{
+  "name": "eval",
+  "main": "./lib/eval",
+  "version": "0.1.1",
+  "private": true,
+  "description": "Safely evaluate JavaScript code.",
+
+  "keywords": [
+    "eval",
+    "javascript",
+    "js",
+    "benchmark",
+    "execute",
+    "run",
+    "build"
+  ],
+  "homepage": "https://github.com/ardcore/atom-safe-eval",
+  "bugs": {
+    "url": "https://github.com/ardcore/atom-safe-eval/issues",
+    "email": "szymon.pilkowski@gmail.com"
+  },
+  "author": {
+    "name": "Szymon Pilkowski",
+    "email": "szymon.pilkowski@gmail.com",
+    "url": "http://twitter.com/ard"
+  },
+
+
+  "activationEvents": ["eval:run"],
+  "repository": "https://github.com/ardcore/atom-safe-eval",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
